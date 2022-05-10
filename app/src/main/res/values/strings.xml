@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimpList 1</string>
+    <string name="save_store_layout_button">Save Store Layout</string>
+    <string name="store_layout_heading">Store Layout</string>
+    <string name="store_list_heading">Make List</string>
+    <string name="shopping_heading">Shop List</string>
+    <string name="add_item_button">Add Item to Store List</string>
+    <string name="view_list_button">View Shopping List</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/store_layout_heading"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/store_department_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 1"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/store_department_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 2"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/store_department_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 3"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/store_department_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 4"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/store_department_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 5"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/store_department_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 6"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/store_department_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 7"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/store_department_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 8"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/store_department_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 9"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/store_department_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Store Department 10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/save_store_departments_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save_store_layout_button" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/store_list_heading"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="36dp"/>
+
+            <EditText
+                android:id="@+id/item_entry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Item"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/department_entry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Store Department"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/add_item_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_item_button" />
+
+            <Button
+                android:id="@+id/view_list_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/view_list_button"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shopping_heading"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="36dp"/>
+
+            <TextView
+                android:id="@+id/shopping_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
